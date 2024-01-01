@@ -1,0 +1,109 @@
+/* -----------------for blog post------------------ */
+h1 {
+  color: #333;
+}
+
+#blog-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.input-field {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-add-post {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-add-post:hover {
+  background-color: #45a049;
+}
+
+#blogs {
+  list-style-type: none;
+  padding: 0;
+}
+
+.blog-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-item h3 {
+  color: #333;
+}
+
+.blog-item p {
+  color: #555;
+}
+
+
+/* ------------------contact page-------------------- */
+
+.contactPage{
+  padding: 20px;
+  text-align: center;
+}
+
+input[type="submit"] {
+  border: 1px solid #520a63;
+  background-color: transparent;
+  color: #870ebe;
+  padding: 20px 60px;
+  font-size: 18px;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  text-transform: capitalize;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* slide hover left -1 css */
+
+input.slide-hover-left-1 {
+  background-image: linear-gradient(0, #410a5b, #410a5b);
+  background-size: 0;
+  transition: .8s;
+  background-repeat: no-repeat;
+}
+
+input.slide-hover-left-1:hover {
+  background-size: 100%;
+  color: #fff;
+}
